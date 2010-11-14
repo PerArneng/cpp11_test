@@ -1,0 +1,46 @@
+Language Feature                                                              Proposal  Available in GCC 4.6?
+Rvalue references                                                             N2118     Yes
+    Rvalue references for *this                                               N2439     No
+Initialization of class objects by rvalues                                    N1610     Yes
+Non-static data member initializers                                           N2756     No
+Variadic templates                                                            N2242     Yes
+    Extending variadic template template parameters                           N2555     Yes
+Initializer lists                                                             N2672     Yes
+Static assertions                                                             N1720     Yes
+auto-typed variables                                                          N1984     Yes
+    Multi-declarator auto                                                     N1737     Yes
+    Removal of auto as a storage-class specifier                              N2546     Yes
+    New function declarator syntax                                            N2541     Yes
+New wording for C++0x lambdas                                                 N2927     Yes
+Declared type of an expression                                                N2343     Yes
+Right angle brackets                                                          N1757     Yes
+Default template arguments for function templates                             DR226     Yes
+Solving the SFINAE problem for expressions                                    DR339     Yes
+Template aliases                                                              N2258     No
+Extern templates                                                              N1987     Yes
+Null pointer constant                                                         N2431     Yes
+Strongly-typed enums                                                          N2347     Yes
+Forward declarations for enums                                                N2764     Yes
+Generalized attributes                                                        N2761     No
+Generalized constant expressions                                              N2235     Yes
+Alignment support                                                             N2341     No
+Delegating constructors                                                       N1986     No
+Inheriting constructors                                                       N2540     No
+Explicit conversion operators                                                 N2437     Yes
+New character types                                                           N2249     Yes
+Unicode string literals                                                       N2442     Yes
+Raw string literals                                                           N2442     Yes
+Universal character name literals                                             N2170     Yes
+Extensible literals                                                           N2765     No
+Standard Layout Types                                                         N2342     Yes
+Defaulted and deleted functions                                               N2346     Yes
+Extended friend declarations                                                  N1791     No
+Extending sizeof                                                              N2253     Yes
+Inline namespaces                                                             N2535     Yes
+Unrestricted unions                                                           N2544     Yes
+Local and unnamed types as template arguments                                 N2657     Yes
+Range-based for                                                               N2930     Yes
+Explicit virtual overrides                                                    N2928     No
+Minimal support for garbage collection and reachability-based leak detection  N2670     No
+Allowing move constructors to throw [noexcept]                                N3050     Yes (core language only)
+Defining move special member functions                                        N3053     Yes
