@@ -25,5 +25,5 @@ int main(int argc, char** argv)
 
     assert(result == 50);
 
-	return 0;
+    return 0;
 }
