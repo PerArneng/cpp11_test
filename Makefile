@@ -1,7 +1,7 @@
 
-CC=~/gcc-4.6-20101106/bin/g++-4.6
+CC=~/gcc/bin/g++-4.6
 #CC=g++-4.5
-OPTS=--std=c++0x
+OPTS=--std=c++0x -g -Wl,-rpath -Wl,~/gcc/lib64 -L~/gcc/lib64
 
 all: test_n2442_string_literals test_n2927_lambdas test_n2431_nullptr test_n2347_enums test_threading test_n2930_foreach
 
@@ -21,7 +21,7 @@ test_n2442_string_literals: src/n2442_string_literals.cc
 	$(CC) $(OPTS) $? -o $@
 
 test_threading: src/threading.cc
-	$(CC) $(OPTS) $? -o $@
+	$(CC) $(OPTS) -lpthread $? -o $@
 
 test_n2930_foreach: src/n2930_foreach.cc
 	$(CC) $(OPTS) $? -o $@
