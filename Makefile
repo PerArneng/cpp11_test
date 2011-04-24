@@ -1,7 +1,7 @@
 
-CC=~/gcc/bin/g++-4.6
-#CC=g++-4.5
-OPTS=--std=c++0x -g -Wl,-rpath -Wl,~/gcc/lib64 -L~/gcc/lib64
+GCC46=/opt/gcc-4.6
+CC=$(GCC46)/bin/g++-4.6
+OPTS=--std=c++0x -g -Wl,-rpath -Wl,$(GCC46)/lib64 -L$(GCC46)/lib64
 
 all: test_n2442_string_literals test_n2927_lambdas test_n2431_nullptr test_n2347_enums test_threading test_n2930_foreach
 
